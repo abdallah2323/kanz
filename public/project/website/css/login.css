@@ -1,0 +1,138 @@
+:root {
+  --main-color: #13325B;
+  --second-main-color: #13325bd1;
+  --yallow-color:#FFD51E;
+}
+* {
+  box-sizing: border-box;
+}
+
+header .nav-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+img.image-nav {
+  width: 10rem;
+  padding: 10px;
+}
+
+/* section 1 */
+.section-1 img.image-nav1 {
+  width: 100%;
+}
+
+.section-1 .div-img {
+  margin-top: 4rem;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.section-1 .content {
+  margin-top: 3rem;
+}
+
+.section-1 h1.heading-1 {
+  font-weight: 600;
+  font-size: 35px;
+}
+
+.section-1 p.paragraph-1 {
+  font-size: 30px;
+  color: #575757;
+  font-weight: 400;
+}
+
+.section-1 label.label-1 {
+  font-size: 17px;
+  color: black;
+}
+
+.section-1 label.label-2 {
+  color: black;
+  margin-top: 10px;
+}
+
+.section-1 input.input-1,
+.section-1 input.input-2 {
+  outline: none;
+  border: 1px solid #a6a6a6;
+  width: 100%;
+  height: 50px;
+  margin-top: 8px;
+  padding-right: 10px;
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+.section-1 form i {
+  cursor: pointer;
+  font-size: 1.5rem;
+  position: absolute;
+  z-index: 1;
+  left: 13px;
+  top: 46px;
+}
+
+.section-1 a.paragraph_2 {
+  margin-top: 2rem;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.section-1 .input-2 {
+  height: 50px;
+  background-color: var(--main-color);
+  color: white;
+  font-size: 23px;
+  margin-top: 2rem;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  padding-top: 5px;
+}
+
+.section-1 .input-2:hover {
+  background-color: var(--second-main-color);
+  cursor: pointer;
+}
+
+.section-1 .div-1 {
+  display: flex;
+  margin-top: 1.5rem;
+  justify-content: center;
+}
+
+.section-1 a.sign-up {
+  text-decoration: none;
+  color: var(--main-color);
+  font-weight: 500;
+  font-size: 22px;
+  margin-top: -5px;
+}
+
+
+@media (max-width: 767.98px) {
+  .section-1 .div-1 {
+    justify-content: center;
+  }
+
+  .section-1 .div-img {
+    display: none;
+  }
+
+  .section-1 a.sign-up-1 {
+    margin-top: -7px;
+  }
+}
+
+@media (min-width: 1399.98px) {
+  .section-1 .div-1 {
+    justify-content: center;
+  }
+}

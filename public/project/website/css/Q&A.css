@@ -1,0 +1,42 @@
+
+nav.navbar ul li a.active-4 {
+  color: var(--yallow-color) !important;
+}
+
+/* section-1 */
+.section-1 {
+  margin-top: 6rem;
+}
+.section-1 ::marker {
+  font-size: 24px;
+  font-weight: bold;
+}
+.section-1 hr:not([size]) {
+  height: 1px;
+  color: #cbc3c3;
+  margin-bottom: -5px;
+}
+.section-1 li {
+  margin-bottom: 4rem;
+}
+.section-1 .p-7 {
+  font-size: 15px;
+  color: #545454;
+}
+/* section-1 */
+
+/* Communication */
+.Communication .fb-img img {
+    position: fixed;
+    bottom: 70px;
+    left: 35px;
+    width: 40px;
+    z-index: 100000;
+  }
+  .Communication .what-img img {
+    position: fixed;
+    bottom: 20px;
+    left: 35px;
+    width: 40px;
+    z-index: 100000;
+  } /* Communication */

@@ -1,0 +1,53 @@
+:root {
+  --main-color: #14aa35;
+  --second-main-color: #14cd3d;
+}
+
+/* section-1 */
+.section-1 {
+  margin-top: 5rem;
+}
+
+.section-1 .a-1 {
+  text-decoration: none;
+  color: black;
+}
+
+.section-1 .span-1 {
+  color: var(--main-color);
+}
+
+.section-1 .color {
+  background-color: #a6a6a61a;
+  padding: 15px 10px 50px 20px;
+}
+
+.section-1 .p-7 {
+  font-size: 15px;
+  line-height: 1.9;
+}
+
+.section-1 .paragraph {
+  margin-bottom: 12px;
+}
+
+::marker {
+  color: var(--main-color);
+}
+
+/* section-1 */
+/* Communication */
+.Communication .fb-img img {
+    position: fixed;
+    bottom: 70px;
+    left: 35px;
+    width: 40px;
+    z-index: 100000;
+  }
+  .Communication .what-img img {
+    position: fixed;
+    bottom: 20px;
+    left: 35px;
+    width: 40px;
+    z-index: 100000;
+  } /* Communication */

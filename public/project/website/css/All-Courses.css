@@ -1,0 +1,196 @@
+
+nav.navbar ul li a.active-1 {
+  color: var(--yallow-color) !important;
+}
+
+/* section-1 */
+
+/* to first slider */
+div#carouselExampleIndicators {
+  margin-top: 5.2rem;
+}
+
+.carousel-indicators {
+  direction: ltr;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: var(--main-color);
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: var(--main-color);
+}
+
+img.d-block.w-100 {
+  height: 35.3rem;
+}
+
+@media (max-width: 991.98px) {
+  img.d-block.w-100 {
+    height: 30rem;
+  }
+}
+
+@media (max-width: 767.98px) {
+  img.d-block.w-100 {
+    height: 18rem !important;
+  }
+}
+
+@media (max-width: 575.98px) {
+  img.d-block.w-100 {
+    height: 14rem !important;
+  }
+}
+
+/* to first slider */
+
+/* section-1 */
+
+/* section-2 */
+.section-2 h4 .span-2 {
+  color: var(--yallow-color);
+}
+.section-2 .box .content p.p-7 {
+  font-size: 14px;
+  margin: 9px 0;
+}
+
+.section-2 .box .content img.weman-1 {
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.section-2 .box .content .span-1 {
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.section-2 .box .content p.mb-0.p-8 {
+  font-size: 18px;
+  color: var(--main-color);
+  font-weight: bold;
+}
+.section-2 .box .content {
+  background-color: #f9f9f9;
+  padding: 1px 9px 10px 9px;
+}
+
+.section-2 .box .image {
+    width: 100%;
+    height: 235px;
+}
+
+@media (max-width: 575.98px) {
+  .section-2 .box .image {
+    height: 300px;
+  }
+}
+
+.section-2 .box .image img {
+  width: 100%;
+  height: 100%;
+}
+
+/* before in the courses */
+.section-2 .box {
+  overflow: hidden;
+}
+
+.section-2 .box .before {
+  background-color: #ffffff;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  right: -100%;
+  transition: 0.5s;
+}
+
+.section-2 .box:hover .before {
+  right: 0;
+}
+
+.section-2 .box .before p.p-7 {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.section-2 .box .before p.p-8 {
+  font-size: 13px;
+  color: green;
+  margin-bottom: 10px;
+}
+
+.section-2 .box .before p.p-9 {
+  font-size: 13px;
+  color: #575757;
+}
+
+.section-2 .box .before p.p-10 {
+  font-size: 13px;
+  color: #000000;
+}
+
+.section-2 .box .before p.p-11 {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #707070;
+}
+
+.section-2 .box .before svg.svg-inline--fa.fa-check {
+  color: black;
+}
+.section-2 .box .before .know{
+  display: flex;
+  margin-top: -24px;
+}
+@media (max-width: 575.98px) {
+  .section-2 .box .before .know{
+    margin-top: 20px;
+  }
+ }
+.section-2 .box .before .a-1 {
+  text-decoration: none;
+  color: white;
+  background-color: var(--main-color);
+  text-align: center;
+  width: 7rem;
+  margin: auto;
+  border-radius: 2rem;
+  font-size: 12px;
+  line-height: 1.9;
+  margin-top: 2.1rem;
+  box-shadow: none !important;
+  border-color: var(--main-color);
+  font-weight: bold;
+}
+
+.section-2 .box .before .a-1:hover {
+  background-color: var(--second-main-color);
+}
+
+/* before in the courses */
+
+/* section-2 */
+
+/* Communication */
+.Communication .fb-img img {
+    position: fixed;
+    bottom: 70px;
+    left: 35px;
+    width: 40px;
+    z-index: 100000;
+  }
+  .Communication .what-img img {
+    position: fixed;
+    bottom: 20px;
+    left: 35px;
+    width: 40px;
+    z-index: 100000;
+  } /* Communication */

@@ -1,0 +1,316 @@
+/* section-1 */
+.section-1 {
+  margin-top: 9rem;
+}
+.section-1 .box {
+  width: 915px;
+  height: auto;
+  margin: auto;
+}
+@media (max-width: 991.98px) {
+  .section-1 .box {
+    height: auto;
+  }
+}
+
+.section-1 .box-1 .h4-1 {
+  color: var(--main-color);
+}
+.section-1 .box-1 .p-7 {
+  font-size: 15px;
+  color: #555;
+}
+.section-1 .box-1 .content {
+  display: flex;
+  gap: 10px;
+}
+@media (max-width: 450.98px) {
+  .section-1 .box-1 .content {
+    display: block;
+    text-align: center;
+  }
+  .section-1 .box-1 ol li .a-1 {
+    font-size: 13px !important;
+    width: 12rem !important;
+  }
+}
+.section-1 .box-1 .content .button.active {
+  background-color: var(--main-color) !important;
+  color: white;
+}
+.section-1 .box-1 .content .button {
+  padding: 10px 13px;
+  border-radius: 4px;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.section-1 .box-1 a.form-control.a-2 {
+  width: 12rem;
+  text-decoration: none;
+  text-align: center;
+  background-color: var(--main-color);
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 1.8;
+  border-radius: 7px;
+  box-shadow: none;
+  border-color: var(--main-color);
+}
+.section-1 .box-1 a.form-control.a-2:hover {
+  background-color: var(--second-main-color);
+}
+.section-1 .box-1 ol li .a-1 {
+  background-color: #14cd3d0d;
+  padding: 18px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  width: 15rem;
+  display: inline-block;
+  text-align: center;
+  background: linear-gradient(0deg, var(--main-color), #14cdc473);
+}
+.section-1 .box-1 ol li {
+  margin-top: 45px;
+}
+.section-1 .box-1 ::marker {
+  font-weight: bold;
+}
+/* section-1 */
+
+a.form-control.a-10 {
+    width: 6rem;
+    text-decoration: none;
+    text-align: center;
+    background-color: var(--main-color);
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1.8;
+    border-radius: 7px;
+    box-shadow: none;
+    border-color: var(--main-color);
+  }
+  a.form-control.a-10:hover {
+    background-color: var(--second-main-color);
+  }
+
+/* Communication */
+.Communication .fb-img img {
+    position: fixed;
+    bottom: 70px;
+    left: 35px;
+    width: 40px;
+    z-index: 100000;
+  }
+  .Communication .what-img img {
+    position: fixed;
+    bottom: 20px;
+    left: 35px;
+    width: 40px;
+    z-index: 100000;
+  } /* Communication */
+/* section-2 */
+.section-2 img.pdf {
+  width: 2.5rem;
+  margin-left: 3px;
+  margin-top: -4px;
+}
+.section-2 .a-1 {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+/* section-2 */
+
+/* section-4 */
+.section-4 .color {
+  background-color: #a6a6a61f;
+  padding-top: 4rem;
+  padding-bottom: 6rem;
+}
+
+/* box-4 */
+.section-4 .box-4 .content {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 35px;
+}
+
+.section-4 .box-4 .content-1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 35px 0 45px;
+  align-items: center;
+}
+
+.section-4 .box-4 .content-1 .comment {
+  display: flex;
+}
+
+.section-4 .box-4 .content-1 .comment img.man {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  margin-left: 2rem;
+}
+
+.section-4 .box-4 .content-1 .comment p.p-12 {
+  font-size: 15px;
+  font-weight: bold;
+  margin-bottom: 9px;
+}
+
+.section-4 .box-4 .content-1 .comment p.p-13 {
+  font-size: 15px;
+  color: #5f5f5fd4;
+}
+
+.section-4 .box-4 .add-comment {
+  padding: 0 35px;
+  align-items: center;
+}
+
+.section-4 .box-4 .add-comment .man {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  margin-left: 0.7rem;
+}
+
+.section-4 .box-4 .add-comment .input-1 {
+  background-color: #eee;
+  border: none;
+  outline: none;
+}
+
+.section-4 .box-4 .add-comment .input-1::placeholder {
+  color: #eee;
+}
+
+@media (max-width: 575.98px) {
+  .section-4 .box-4 .content-1 .comment img.man,
+  .section-4 .box-4 .add-comment .man {
+    margin-left: 0 !important;
+  }
+}
+
+/* css foe emoji*/
+
+.emojionearea .emojionearea-button {
+  left: 0 !important;
+}
+
+.emojionearea.emojionearea-inline > .emojionearea-button {
+  right: auto !important;
+}
+
+.emojionearea-editor {
+  direction: rtl !important;
+}
+
+.emojionearea .emojionearea-picker {
+  left: 10px !important;
+}
+
+.emojionearea .emojionearea-button > div.emojionearea-button-close {
+  left: 0px !important;
+}
+
+.emojionearea .emojionearea-picker.emojionearea-picker-position-bottom {
+  right: auto !important;
+}
+
+.emojionearea.emojionearea-inline > .emojionearea-button {
+  top: 14px !important;
+  left: 10px !important;
+}
+
+.emojionearea.emojionearea-inline > .emojionearea-editor {
+  top: 11px !important;
+  font-size: 13px !important;
+}
+
+.emojionearea .emojionearea-picker.emojionearea-picker-position-bottom {
+  top: 70px !important;
+}
+
+@media (max-width: 400.98px) {
+  .emojionearea .emojionearea-picker.emojionearea-picker-position-bottom {
+    left: -30px !important;
+  }
+}
+
+.emojionearea.emojionearea-inline {
+  height: 55px !important;
+  width: 60% !important;
+  border-radius: 2rem !important;
+  background-color: #ffffffb3 !important;
+}
+
+@media (max-width: 767.98px) {
+  .emojionearea.emojionearea-inline {
+    width: 100% !important;
+  }
+}
+/* for button send*/
+.section-4 .add-comment .send {
+  transform: scaleX(-1);
+  width: 18px;
+}
+.section-4 .add-comment .button-1 {
+  border: none;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  padding: 6px 12px 6px 8px;
+  color: white;
+  margin-right: 4px;
+}
+.section-4 .add-comment .button-1:hover {
+  background-color: var(--second-main-color);
+}
+.section-4 .add-comment .form-1 {
+  display: flex;
+  align-items: center;
+}
+
+/* section-4 */
+
+/* section-5 */
+.section-5 .box .Ahmed {
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+.section-5 .box .image {
+  display: flex;
+  align-items: center;
+}
+.section-5 .box .image .h6-1 {
+  font-size: 18px;
+  margin-bottom: 2px;
+}
+.section-5 .box .image .date {
+  margin-bottom: 0;
+  color: #5f5f5fd4;
+  font-weight: bold;
+  font-size: 14px;
+}
+.section-5 .box .p-7 {
+  background-color: #00ff1f1c;
+  width: 50%;
+  padding: 15px;
+}
+@media (max-width: 991.98px) {
+  .section-5 .box .p-7 {
+    width: 100%;
+  }
+}
+/* section-5 */

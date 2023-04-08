@@ -1,0 +1,40 @@
+
+/* section 1 */
+.section-1 {
+  margin-top: 12rem;
+}
+.section-1 .box {
+  text-align: center;
+  width: 490px;
+  height: 270px;
+  margin: auto;
+}
+.section-1 img.library {
+  display: block;
+  margin: auto;
+  margin-bottom: 2rem;
+  width: 100%;
+  height: 100%;
+}
+.section-1 .a-1 {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 19px;
+  color: var(--main-color);
+}
+
+/* Communication */
+.Communication .fb-img img {
+    position: fixed;
+    bottom: 70px;
+    left: 35px;
+    width: 40px;
+    z-index: 100000;
+  }
+  .Communication .what-img img {
+    position: fixed;
+    bottom: 20px;
+    left: 35px;
+    width: 40px;
+    z-index: 100000;
+  } /* Communication */

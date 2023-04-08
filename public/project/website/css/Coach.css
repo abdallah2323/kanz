@@ -1,0 +1,278 @@
+
+/* section-1 */
+.section-1 {
+  background-color: #fbfaff;
+  z-index: 0;
+  position: relative;
+}
+
+.section-1 .box {
+  margin-top: 6rem;
+  padding-right: 5rem;
+}
+
+@media (max-width: 767.98px) {
+  .section-1 .box {
+    padding-right: 0 !important;
+  }
+
+  .section-1 .box .dots {
+    display: none;
+  }
+}
+
+.section-1 .box p.p-7 {
+  font-weight: bold;
+  font-size: 14px;
+  padding-right: 17px;
+  margin-top: -6px;
+  color: #979797;
+}
+
+.section-1 .box .content {
+  width: 100%;
+  height: auto;
+  background-color: white;
+  padding: 12px;
+}
+.section-1 .box .content .p-8 {
+  font-weight: bold;
+  font-size: 15px;
+  padding-right: 12px;
+  margin-bottom: 9px;
+  color: #818181;
+}
+.section-1 .box .icon {
+  display: flex;
+  align-items: center;
+  margin-top: 10rem;
+  /* padding-right: 4rem; */
+}
+
+.section-1 .box .icon .p-8 {
+  width: 6rem;
+}
+
+.section-1 .box .icon .behance,
+.section-1 .box .icon .instagram,
+.section-1 .box .icon .twitter {
+  border: 1px solid;
+  padding: 7px;
+  border-radius: 50%;
+  color: black;
+  font-size: 13px;
+  margin-left: 1.5rem;
+}
+
+.section-1 .box .dots {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 3.5rem;
+}
+
+.section-1 .image .Coach {
+  width: 16rem;
+  height: 23.5rem;
+}
+
+@media (min-width: 768px) {
+  .section-1 .image .Coach {
+    width: 20rem;
+    border-radius: 50%;
+    }
+}
+
+@media (max-width: 575.98px) {
+  .section-1 .image .Coach {
+    position: absolute;
+    top: -29rem;
+    width: 10rem !important;
+    height: 10rem !important;
+    border-radius: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .section-1 .box .icon {
+    margin-top: 2rem !important;
+  }
+
+  .section-1 .box {
+    margin-top: 10rem !important;
+  }
+}
+
+.section-1 .image img.bar-1 {
+  position: absolute;
+  width: 10rem;
+  left: 8%;
+  top: 51%;
+  z-index: -1;
+}
+
+.section-1 .image img.bar-2 {
+  width: 18rem;
+  left: 19%;
+  position: absolute;
+  top: 24%;
+  z-index: -1;
+}
+
+.section-1 .image img.bar-3 {
+  position: absolute;
+  width: 10rem;
+  left: 50%;
+  top: 53%;
+  z-index: -1;
+}
+
+@media (max-width: 991.98px) {
+  .section-1 .image img.bar-1,
+  .section-1 .image img.bar-2,
+  .section-1 .image img.bar-3 {
+    display: none;
+  }
+}
+
+/* section-1 */
+
+/* section-2 */
+.section-2 .box .content p.p-7 {
+  font-size: 14px;
+  margin: 9px 0;
+}
+
+.section-2 .box .content img.weman-1 {
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.section-2 .box .content .span-1 {
+  font-size: 14px;
+  margin-right: 5px;
+}
+
+.section-2 .box .content p.mb-0.p-8 {
+  font-size: 18px;
+  color: var(--main-color);
+  font-weight: bold;
+}
+.section-2 .box .content {
+  background-color: #f9f9f9;
+  padding: 1px 9px 10px 9px;
+}
+
+.section-2 .box .image {
+    width: 100% !important;
+    height: 250px;
+}
+
+@media (max-width: 575.98px) {
+  .section-2 .box .image {
+    height: 300px;
+  }
+}
+
+.section-2 .box .image img {
+  width: 100%;
+  height: 100%;
+}
+
+/* before in the courses */
+.section-2 .box {
+  overflow: hidden;
+}
+
+.section-2 .box .before {
+  background-color: #ffffff;
+  padding: 20px;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  right: -100%;
+  transition: 0.5s;
+}
+
+.section-2 .box:hover .before {
+  right: 0;
+}
+
+.section-2 .box .before p.p-7 {
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.section-2 .box .before p.p-8 {
+  font-size: 13px;
+  color: green;
+  margin-bottom: 10px;
+}
+
+.section-2 .box .before p.p-9 {
+  font-size: 13px;
+  color: #575757;
+}
+
+.section-2 .box .before p.p-10 {
+  font-size: 13px;
+  color: #000000;
+}
+
+.section-2 .box .before p.p-11 {
+  margin-bottom: 10px;
+  font-size: 14px;
+  color: #707070;
+}
+
+.section-2 .box .before svg.svg-inline--fa.fa-check {
+  color: black;
+}
+.section-2 .box .before .know {
+  display: flex;
+  margin-top: -24px;
+}
+@media (max-width: 575.98px) {
+  .section-2 .box .before .know {
+    margin-top: 20px;
+  }
+}
+.section-2 .box .before .a-1 {
+  text-decoration: none;
+  color: white;
+  background-color: var(--main-color);
+  text-align: center;
+  width: 7rem;
+  margin: auto;
+  border-radius: 2rem;
+  font-size: 12px;
+  line-height: 1.9;
+  margin-top: 2.1rem;
+  box-shadow: none !important;
+  border-color: var(--main-color);
+  font-weight: bold;
+}
+
+.section-2 .box .before .a-1:hover {
+  background-color: var(--second-main-color);
+}
+
+/* section-2 */
+/* Communication */
+.Communication .fb-img img {
+    position: fixed;
+    bottom: 70px;
+    left: 35px;
+    width: 40px;
+    z-index: 100000;
+  }
+  .Communication .what-img img {
+    position: fixed;
+    bottom: 20px;
+    left: 35px;
+    width: 40px;
+    z-index: 100000;
+  } /* Communication */

@@ -1,0 +1,117 @@
+
+.section-Personal .alone.bg-black {
+  width: 100%;
+  height: 10rem;
+}
+.section-Personal {
+  background-color: white;
+  margin-top: 3.3rem;
+}
+.section-Personal img.img-1 {
+  width: 7rem;
+  height: 7rem;
+  z-index: 10;
+  margin-top: -4rem;
+  margin-bottom: 1rem;
+  border-radius: 50%;
+}
+.section-Personal .image-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section-Personal .boxs_1 {
+  background-color: #cacacf80;
+  box-shadow: 1px 4px 6px #eee;
+  /* margin-top: -95px; */
+}
+.section-Personal .content {
+  text-align: center;
+}
+.section-Personal p.para-2 {
+  margin-top: -0.5rem;
+  font-weight: 100;
+}
+.section-Personal button.btn-1 {
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  color: white;
+  background-color: var(--main-color);
+}
+.section-Personal button.btn-1:hover {
+  background-color: var(--second-main-color);
+}
+.section-Personal .button-1 {
+  margin: 1rem auto;
+  text-align: center;
+}
+.section-Personal .calender {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-weight: 100;
+  margin-top: 2rem;
+}
+
+.section-Personal p.para-3 {
+  margin-bottom: 4px;
+}
+.section-Personal .box {
+  padding: 8px;
+  margin-top: 0.3rem;
+}
+.section-Personal .box .img-2 {
+  width: 100%;
+  height: 15rem;
+}
+.section-Personal .box .p-7 {
+  font-size: 15px;
+  font-weight: bold;
+  text-align: center;
+  padding: 24px;
+  background-color: #f9f9f9;
+  color: var(--main-color);
+}
+.section-Personal .h4-1 {
+  padding-bottom: 10px;
+  text-align: center;
+  position: relative;
+}
+.section-Personal .h4-1::before {
+  content: "";
+  position: absolute;
+  background-color: var(--main-color);
+  left: 50%;
+  bottom: -2px;
+  width: 13rem;
+  height: 3px;
+  transform: translateX(-50%);
+}
+@media (max-width: 575.98px) {
+  .col-lg-3.col-md-4.col-sm-6.col-9.au {
+    margin: auto;
+  }
+}
+.section-Personal .a-1 {
+  text-decoration: none;
+}
+
+/* Communication */
+.Communication .fb-img img {
+    position: fixed;
+    bottom: 70px;
+    left: 35px;
+    width: 40px;
+    z-index: 100000;
+  }
+  .Communication .what-img img {
+    position: fixed;
+    bottom: 20px;
+    left: 35px;
+    width: 40px;
+    z-index: 100000;
+  } /* Communication */
+

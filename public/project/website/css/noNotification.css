@@ -1,0 +1,56 @@
+
+.section-NoCertificate {
+  height: 81vh;
+}
+.section-NoCertificate .link-home {
+  margin: 7rem auto;
+}
+.section-NoCertificate a.href-1 {
+  text-decoration: none;
+  color: black;
+}
+.section-NoCertificate a.href-2 {
+  text-decoration: none;
+  color: var(--main-color);
+}
+.section-NoCertificate .div-bell {
+  text-align: center;
+  margin-top: 8rem;
+  background-color: whitesmoke;
+  padding: 30px;
+}
+.section-NoCertificate .div-bell .h6-1{
+font-size: 18px;
+}
+.section-NoCertificate .div-bell .p-7{
+font-size: 15px;
+}
+.section-NoCertificate .div-bell .button-1{
+  width: 12rem;
+    margin: auto;
+    font-size: 14px;
+    background-color: var(--main-color);
+    color: white;
+    font-weight: bold;
+    box-shadow: none;
+
+}
+.section-NoCertificate .div-bell .button-1:hover{
+  background-color: var(--second-main-color);
+}
+
+/* Communication */
+.Communication .fb-img img {
+    position: fixed;
+    bottom: 70px;
+    left: 35px;
+    width: 40px;
+    z-index: 100000;
+  }
+  .Communication .what-img img {
+    position: fixed;
+    bottom: 20px;
+    left: 35px;
+    width: 40px;
+    z-index: 100000;
+  } /* Communication */

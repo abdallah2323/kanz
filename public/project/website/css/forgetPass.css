@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+.section-1 p.paragraph-1 {
+  font-size: 30px;
+  color: #575757;
+  font-weight: 300;
+}
+.section-1 input.input-1,
+.section-1 input.input-2 {
+  margin-top: 15px;
+  margin-bottom: 2rem;
+}
+.section-1 a.sign-up {
+  font-weight: 400;
+  font-size: 20px;
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: underline;
+}
+
+@media (max-width: 767.98px) {
+  .section-1 p.paragraph-1 {
+    font-size: 19px;
+  }
+  .section-1 a.sign-up {
+    margin-bottom: 15px;
+  }
+  .section-1 h1.heading-1 {
+    font-weight: 600;
+    font-size: 33px;
+  }
+}
